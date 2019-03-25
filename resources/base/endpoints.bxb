@@ -1,0 +1,39 @@
+endpoints {
+  
+  action-endpoints {
+
+    action-endpoint (userSad) {
+      local-endpoint ("timeOfDay.js")
+    }
+
+    action-endpoint (userWantsCheeringUp) {
+      local-endpoint ("timeOfDay.js")
+    }
+    
+    action-endpoint (showPicture) {
+      local-endpoint ("choosePicture.js")
+    }
+
+    action-endpoint (cheeringUpText) {
+      local-endpoint ("cheeringUpText.js")
+    }
+
+    action-endpoint (askingForAge) {
+      local-endpoint ("finishConversation.js")
+    }
+
+    action-endpoint (calculateAge) {
+      local-endpoint ("calculateAge.js")
+    }
+
+    action-endpoint (finishConversation) {
+      local-endpoint ("finishConversation.js")
+    }
+
+    
+    
+
+    
+  }
+  
+}
