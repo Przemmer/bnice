@@ -1,0 +1,22 @@
+dialog (Result) {
+  match {
+    bixbySays (cheeringUpTextOutput) {
+      from-output: cheeringUpText ()
+    }
+  }
+  choose (Random) {
+    template ("You're a gift to those around you. And remember: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("You were cool way before hipsters were cool. Please remember one thing: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("You're a gift to those around you. And don't forget: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("I'm grateful to know you. Please remember one thing: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("On a scale from 1 to 10, you're an 11. And remember one thing: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("Everything would be better if more people were like you! And remember: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("You're a candle in the darkness. #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("You're like a breath of fresh air. #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+    template ("You're even better than a unicorn, because you're real. Please remember one thing: #{value(cheeringUpTextOutput)} Can I ask you a private question?")
+  }
+}
+
+
+
+

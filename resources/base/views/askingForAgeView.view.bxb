@@ -1,0 +1,20 @@
+result-view {
+  match {
+    bixbySays {
+      from-output: askingForAge ()
+    }
+  }
+  
+  render {
+    layout-macro (question-macro) 
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+        template ("I'd rather not say...")
+      }
+  }
+
+}
+
+

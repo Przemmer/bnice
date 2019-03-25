@@ -1,0 +1,3 @@
+text (yesOrNoAnswer) {
+  description (primitive for user's yes or no answer)
+}

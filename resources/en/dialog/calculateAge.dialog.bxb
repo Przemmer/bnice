@@ -1,0 +1,12 @@
+dialog (Result) {
+  match {
+    age (calculateAgeOutput) {
+      from-output: calculateAge (visualAge)
+    }
+  }
+  template ("I can't believe it! You look much younger, at most #{value(calculateAgeOutput)}. It was nice talking to you. Remember: You are my favorite user!")
+}
+
+
+
+

@@ -1,0 +1,11 @@
+action (calculateAge) {
+  description (calculating user's visual age)
+  collect {
+    input (realAge) {
+      type (age)
+      min (Required) max (One)
+    }
+  }
+  type(Calculation)
+  output (age)
+}

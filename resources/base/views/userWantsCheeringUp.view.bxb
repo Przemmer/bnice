@@ -1,0 +1,23 @@
+result-view {
+  match {
+    bixbySays (userWantsCheeringUpOutput) {
+      from-output: userWantsCheeringUp ()
+    }
+  }
+
+  render {
+    layout-macro (question-macro) 
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+        template ("Yes")
+      }
+      conversation-driver {
+        template ("No")
+      }
+  }
+  
+  
+
+}

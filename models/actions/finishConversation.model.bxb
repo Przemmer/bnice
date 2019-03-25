@@ -1,0 +1,5 @@
+action (finishConversation) {
+  description (the end of a conversation)
+  type (Calculation)
+  output (bixbySays)
+}

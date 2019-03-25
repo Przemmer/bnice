@@ -1,0 +1,5 @@
+action (userSad) {
+  description (When user is sad)
+  type (Calculation)
+  output (bixbySays)
+}

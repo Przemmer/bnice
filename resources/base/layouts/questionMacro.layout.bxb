@@ -1,0 +1,21 @@
+layout-macro-def(question-macro) {
+  
+  params {
+    param (dummy) {
+      type (viv.core.Boolean)
+      min (Optional)
+      max (One)
+    }
+  }
+
+  content {
+    section { 
+      content {
+        image { 
+          url ("http://www.bnice.pl/questionMark.png")
+          object-fit (Contain)
+        }
+      }
+    }
+  }
+}

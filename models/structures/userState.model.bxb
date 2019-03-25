@@ -1,0 +1,11 @@
+structure (userState) {
+  description (information about user)
+  property (mood) {
+    type (userMood)
+    min (Optional) max (One)
+  }
+  property (wantsCheering) {
+    type (viv.core.Boolean)
+    min (Optional) max (One)
+  }
+}

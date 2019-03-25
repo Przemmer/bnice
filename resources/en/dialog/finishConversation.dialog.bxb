@@ -1,0 +1,12 @@
+dialog (Result) {
+  match {
+    bixbySays (finishConversationOutput) {
+      from-output: finishConversation (lastText)
+    }
+  }
+  template ("#{value(finishConversationOutput)}")
+}
+
+
+
+

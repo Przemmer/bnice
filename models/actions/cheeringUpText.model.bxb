@@ -1,0 +1,4 @@
+action (cheeringUpText) {
+  type (Calculation)
+  output (bixbySays)
+}

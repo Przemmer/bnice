@@ -1,0 +1,10 @@
+dialog (Result) {
+  match {
+    pictureName (showPictureOutput) {
+      from-output: showPicture ()
+    }
+  }
+  template("Great! Take a look. Do you like it?")
+  
+
+}

@@ -1,0 +1,20 @@
+layout-macro-def(show-picture-macro) {
+  params {
+    param (pictureName) {
+      type (pictureName)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section { 
+      content {
+        image {
+          url ("#{value(pictureName)}")
+          object-fit (Contain)
+        }
+      }
+    }
+  }
+}

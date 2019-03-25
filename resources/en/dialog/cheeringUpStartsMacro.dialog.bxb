@@ -1,0 +1,17 @@
+template-macro-def (cheeringUpStarts) {
+  params {
+    param (timeOfDay) {
+      type (bixbySays)
+      min (Required)
+      max (One)
+    }
+    param (textBefore) {
+    type (bixbySays)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    template ("#{value(textBefore)}. I will try to cheer you up a bit this #{value(timeOfDay)}, because you are very important to me! I drew a little picture for you. Do you want to see it?")
+  }
+}

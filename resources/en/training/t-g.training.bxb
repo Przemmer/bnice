@@ -1,0 +1,10 @@
+train (t-gmj7d54eb8m9c9lsz5ckff5rb) {
+  utterance ([g:userWantsCheeringUp] Cheer me up!)
+  plan (Y2BikCrISaxML8ovzUvRS8rLTE7VS8qsSKoMTqwsZlDBkCstTi0KT8wrKXbOSE0tysxLDy1gYARCBigGkgA=)
+  last-modified (1553451848224)
+}
+train (t-gus1jjavj51pacvclr5w2oxsc) {
+  utterance ([g:cheeringUpText:continue:showPicture] Yes)
+  plan (Y2BikCrISaxML8ovzUvRS8rLTE7VS8qsSKoMTqwsZpDHkEvOSE0tysxLDy0ISa0oYWAEQgYoBpIA)
+  last-modified (1553471814557)
+}

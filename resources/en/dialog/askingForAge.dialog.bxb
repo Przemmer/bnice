@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    bixbySays {
+      from-output: askingForAge ()
+    }
+  }
+  template ("Please, remind me: How old are you?")
+}

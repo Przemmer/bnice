@@ -1,0 +1,21 @@
+result-view {
+  match {
+    bixbySays (userSadOutput) {
+      from-output: userSad ()
+    }
+  }
+  
+  render {
+    layout-macro (question-macro) 
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+        template ("Yes")
+      }
+      conversation-driver {
+        template ("No")
+      }
+  }
+
+}

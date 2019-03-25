@@ -1,0 +1,28 @@
+dialog (Result) {
+  match {
+    bixbySays (userSadOutput) {
+      from-output: userSad ()
+    }
+  }
+  choose (Random) {
+   template-macro (cheeringUpStarts) {
+    param (textBefore) {
+      literal("I am very sorry to hear that")
+    }
+     param (timeOfDay) {
+       expression (userSadOutput)
+     }
+   }
+   template-macro (cheeringUpStarts) {
+     param (textBefore) {
+       literal("I understand. It's okay to be sad")
+     }
+     param (timeOfDay) {
+       expression (userSadOutput)
+     }
+   }
+  }
+  
+  
+  
+}

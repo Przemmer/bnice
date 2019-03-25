@@ -1,0 +1,5 @@
+action (userWantsCheeringUp) {
+  description (User asked Bixby to cheer up)
+  type (Calculation)
+  output (bixbySays)
+}

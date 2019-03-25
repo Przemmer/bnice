@@ -1,0 +1,27 @@
+result-view {
+
+  
+  match {
+    pictureName (showPictureOutput) {
+      from-output: showPicture ()
+    }
+  }
+
+  render {
+    layout-macro (show-picture-macro) {
+      param (pictureName) {
+        expression (showPictureOutput)
+      }
+    }
+  }
+  
+  conversation-drivers {
+    conversation-driver {
+        template ("Yes")
+      }
+      conversation-driver {
+        template ("No")
+      }
+  }
+  
+}

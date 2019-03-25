@@ -1,0 +1,15 @@
+dialog (Result) {
+  match {
+    bixbySays (userWantsCheeringUpOutput) {
+      from-output: userWantsCheeringUp ()
+    }
+  }
+  template-macro (cheeringUpStarts) {
+    param (textBefore) {
+      literal("Of course, with pleasure")
+    }
+    param (timeOfDay) {
+       expression (userWantsCheeringUpOutput)
+    }
+  }
+}

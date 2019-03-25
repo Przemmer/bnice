@@ -1,0 +1,15 @@
+train (t-42o6g6p2x4cs1jv98fssdyq70) {
+  utterance ([g:askingForAge:continue:cheeringUpText] Yes)
+  plan (Y2BiECnISaxML8ovzUvRS8rLTE7VS0xPZZDFFC3OzsxLd8svcgRKMwIhAxQDSQA=)
+  last-modified (1553471812754)
+}
+train (t-42vuvvk0nc8cs7ybk56lc7r06) {
+  utterance ([g:showPicture] Show me a nice drawing)
+  plan (Y2BikCnISaxML8ovzUvRS8rLTE7VK8hMLiktSvVLzE3FIluckV8eAFHBwAiEDFAMJAE=)
+  last-modified (1553456464735)
+}
+train (t-4mu9vx5rw8m7c81hldla6ee0j) {
+  utterance ("[g:userSad] I'm depressed")
+  plan (Y2BikCrISaxML8ovzUvRS8rLTE7VS8qsSKoMTqwsZpDAkCstTi0KTkxhYARCBigGkgA=)
+  last-modified (1553467573289)
+}
